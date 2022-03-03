@@ -6,29 +6,146 @@ header img {
   margin: 11px 0;
 }
 
-nav {
+header nav {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   display: inline-block;
 }
 
-nav ul {
+header nav ul {
   list-style-type: none;
 }
 
-nav ul li {
+header nav ul li {
   display: inline-block;
   margin: 0 20px;
 }
 
-nav ul li a {
+header nav ul li a {
   padding: 50px 0;
   color: #464645;
   text-decoration: none;
 }
 
-nav ul li .active {
+header nav ul li .active {
   border-bottom: 5px solid #0282f9;
+}
+
+section.top {
+  padding: 30px 0;
+  background: #0282f9;
+}
+
+section.top .container {
+  justify-content: center;
+  padding: 25px 0;
+}
+
+section.top .container ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+section.top .container ul li a {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #fff;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+section.top .container ul li a span {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  white-space: nowrap;
+}
+
+section.top .container ul li a img {
+  max-height: 50px;
+}
+
+section.mid {
+  overflow-y: hidden;
+  background: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-size: cover;
+  padding: 25px 0;
+}
+
+section.mid img {
+  margin: -70px 0;
+}
+
+section.mid nav {
+  display: flex;
+  gap: 50px;
+}
+
+section.mid nav h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+section.mid nav ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+section.mid nav ul li {
+  margin: 5px 0;
+}
+
+section.mid nav ul li a {
+  font-size: 0.8rem;
+  color: #959595;
+  text-decoration: none;
+}
+
+section.mid nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section.bot {
+  padding: 50px 0;
+  background: #303030;
+}
+
+section.bot a.signup {
+  border: 3px solid #0282f9;
+  padding: 15px;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+section.bot a.signup:hover {
+  background: #0282f9;
+}
+
+section.bot .social {
+  display: flex;
+  gap: 30px;
+}
+
+section.bot .social h3 {
+  font-size: 1.6rem;
+  color: #0282f9;
+  text-transform: uppercase;
+}
+
+section.bot .social ul {
+  list-style: none;
+}
+
+section.bot .social ul li {
+  display: inline;
+  margin: 10px;
 }
 
 * {

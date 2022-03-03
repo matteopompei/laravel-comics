@@ -4,28 +4,28 @@ header {
     img {
         margin: 11px 0;
     }
-}
 
-nav {
-    font-family: "Roboto Condensed", sans-serif;
-    text-transform: uppercase;
-    display: inline-block;
+    nav {
+        font-family: "Roboto Condensed", sans-serif;
+        text-transform: uppercase;
+        display: inline-block;
 
-    ul {
-        list-style-type: none;
+        ul {
+            list-style-type: none;
 
-        li {
-            display: inline-block;
-            margin: 0 20px;
+            li {
+                display: inline-block;
+                margin: 0 20px;
 
-            a {
-                padding: 50px 0;
-                color: #464645;
-                text-decoration: none;
-            }
+                a {
+                    padding: 50px 0;
+                    color: #464645;
+                    text-decoration: none;
+                }
 
-            .active {
-                border-bottom: 5px solid $accent;
+                .active {
+                    border-bottom: 5px solid $accent;
+                }
             }
         }
     }

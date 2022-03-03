@@ -1,0 +1,115 @@
+section.top {
+    padding: 30px 0;
+    background: $accent;
+
+    .container {
+        justify-content: center;
+        padding: 25px 0;
+
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+
+            li {
+                a {
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                    color: #fff;
+                    font-weight: normal;
+                    text-decoration: none;
+                    text-transform: uppercase;
+
+                    span {
+                        width: max-content;
+                        white-space: nowrap;
+                    }
+
+                    img {
+                        max-height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.mid {
+    overflow-y: hidden;
+    background: url("../../../public/img/footer-bg.jpg");
+    background-size: cover;
+    padding: 25px 0;
+
+    img {
+        margin: -70px 0;
+    }
+
+    nav {
+        display: flex;
+        gap: 50px;
+
+        h3 {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 20px;
+
+            li {
+                margin: 5px 0;
+                a {
+                    font-size: 0.8rem;
+                    color: #959595;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.bot {
+    padding: 50px 0;
+    background: #303030;
+
+    a.signup {
+        border: 3px solid $accent;
+        padding: 15px;
+        font-size: 1.4rem;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover {
+            background: $accent;
+        }
+    }
+
+    .social {
+        display: flex;
+        gap: 30px;
+
+        h3 {
+            font-size: 1.6rem;
+            color: $accent;
+            text-transform: uppercase;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                display: inline;
+                margin: 10px;
+            }
+        }
+    }
+}
