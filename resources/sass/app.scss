@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap");
+@import "./partials/_vars.scss";
+@import "./partials/_header.scss";
+@import "./partials/_main.scss";
+@import "./partials/_footer.scss";
+
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +11,7 @@
 }
 
 body {
-    background: #000;
-    font-family: "Roboto", sans-serif;
+    font-family: $main-fonts;
     color: #fff;
 }
 
@@ -24,6 +29,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: $h-fonts;
     font-weight: bold;
 }
